@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width= , initial-scale=1.0" />
+        <link rel="stylesheet" href="day9_portfolio.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <script src="script.js" defer></script>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="icon-container">
+                <span class="material-icons" onclick="openMenu()">face</span>
+            </div>
+            <h1>GIANNA PARK</h1>
+        </div>
+
+        <div class="nav-bar">
+            <div class="icon-container">
+                <span class="material-icons" onclick="closeMenu()"
+                    >chevron_left</span
+                >
+            </div>
+            <h1>links</h1>
+            <a href="day9_portfolio.html" id="selected">ABOUT ME</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact_me.html">CONTACT ME</a>
+        </div>
+
+        <div class="about-me">
+            <p>
+                Hello! My name is Gianna Park. I am a sophomore in BCA. I am in the Academy for Technology and Computer Science.
+            </p>
+            <p>Some information about me:</p>
+        </div>
+
+        <div class="image-grid">
+            <div class="image-grid-item">
+                <div class="overlay">
+                    <div class="image-description">
+                        School: Bergen County Academies. <br> <br>
+                        Bergen County Academies is a tuition-free public magnet high school, founded by John Grieco in 1991.
+                    </div>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWWGr5FIamxHDIhjGl_VYcOOqEC0gaSDl68Q&s" alt="" />
+            </div>
+            <div class="image-grid-item">
+                <div class="overlay">
+                    <div class="image-description">
+                        Academy: ATCS <br> <br>
+                        Academy for Technology and Computer Science <br><br>
+                        I use the Visual Studio Code program a lot.
+                    </div>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="" />
+            </div>
+            <div class="image-grid-item">
+                <div class="overlay">
+                    <div class="image-description">
+                        Town: Harrington Park <br><br>
+                        A town located in northern Bergen County. I also attended the local middle school, Harrington Park Public School, from 7th to 8th grade.
+                    </div>
+                </div>
+                <img src="https://cdn.codigo-postal.org/data/us/images/cp/07640.webp" alt="" />
+            </div>
+            <div class="image-grid-item">
+                <div class="overlay">
+                    <div class="image-description">
+                        My favorite activity outside of school is art! I am currently taking the Pre-AP Studio Art elective on Mondays and Thursdays.
+                    </div>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdkhbOf5mB4T-o9G7nB9-hte7a_Bmf3fFaaQ&s" alt="" />
+            </div>
+        </div>
+    </body>
+</html>
